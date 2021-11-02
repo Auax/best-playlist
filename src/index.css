@@ -9,8 +9,20 @@ body {
   overflow: hidden;
 }
 
-.bg {
-  background: URL("bg.jpg");
+.bg-1 {
+  background: URL("bg-assets/bg-1.jpg") !important;
+}
+
+.bg-2 {
+  background: URL("bg-assets/bg-2.jpg") !important;
+}
+
+.bg-2 {
+  background: URL("bg-assets/bg-3.jpg") !important;
+}
+
+#bg {
+  background: URL("bg-assets/bg-1.jpg");
   background-position: center center;
   background-size: cover;
   filter: blur(20px) brightness(20%);
@@ -20,14 +32,12 @@ body {
   -ms-filter: blur(20px) brightness(20%);
   position: fixed;
   z-index: 0;
+  transform: scale(1.3);
   width: 110%;
   height: 110%;
-  top: -5%;
-  left: -5%;
 }
 
 .iframe-container {
-  width: 50%;
   left: -150%;
   position: absolute;
   top: 50%;
