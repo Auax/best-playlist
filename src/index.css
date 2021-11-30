@@ -47,6 +47,14 @@ body {
   animation: iframe-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.honorific-mention-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  top: 50%;
+}
+
 .add-btn {
   background-color: #a7182a;
   padding: 10px;
@@ -99,15 +107,19 @@ code {
     opacity: 0;
     filter: blur(5px);
   }
+
   20% {
     opacity: 0.6;
   }
+
   70% {
     opacity: 1;
   }
+
   80% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 0;
     filter: blur(0px);
@@ -120,19 +132,24 @@ code {
     opacity: 0;
     filter: blur(10px);
   }
+
   20% {
     opacity: 0.6;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   }
+
   50% {
     filter: blur(0px);
   }
+
   70% {
     opacity: 1;
   }
+
   80% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 0;
   }
@@ -144,9 +161,11 @@ code {
     filter: blur(10px);
     left: 50%;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     filter: blur(0px);
     opacity: 1;
@@ -158,13 +177,16 @@ code {
     opacity: 0;
     filter: blur(10px);
   }
+
   1% {
     left: 50%;
   }
+
   40% {
     left: 50%;
     opacity: 0.6;
   }
+
   100% {
     left: 50%;
     filter: blur(0px);
